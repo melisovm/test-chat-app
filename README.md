@@ -1,29 +1,15 @@
 # test-chat-app
-
-## Project setup
+### This is a test-app for  ***d.tkachenko@platformalp.ru***
+To start this project firstly install dependencies
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+Run project 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+Compiles and minifies for production
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
