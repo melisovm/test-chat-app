@@ -47,9 +47,4 @@
       height 1px
       background-color #E9EDF2
 
-    .sidebar__message_item
-
-  /*height 50px*/
-
-
 </style>
