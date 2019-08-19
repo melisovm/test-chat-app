@@ -98,7 +98,6 @@ const actions = {
 };
 const mutations = {
   SEND_MESSAGE(state, { chatId, message, getters, created }) {
-    console.log('id', chatId, 'message', message);
     const { parts: chat } = state.conversations.find(conversation => conversation.id === parseInt(chatId));
     const firstUser = getters.getFirstMessageOwner(parseInt(chatId));
     const { author: secondUser } = chat.find(message => message.author !== firstUser);
@@ -109,7 +108,6 @@ const mutations = {
       created
     };
     chat.push(payload);
-    console.log(payload);
   },
   CHANGE_SENDING_STATE(state, sendingState) {
     state.sendingState = sendingState;

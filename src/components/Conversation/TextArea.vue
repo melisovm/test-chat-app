@@ -36,6 +36,16 @@
         }
       }
     },
+    mounted() {
+      this.$emit('scroll');
+    },
+    watch: {
+      'sendingState': {
+        handler(value) {
+          this.$emit('scroll');
+        }
+      }
+    }
   };
 </script>
 
@@ -48,6 +58,9 @@
 
     .textarea__text_field
       display flex
+      -webkit-display flex;
+      -moz-display flex;
+      -ms--display flex;
       padding-top 10px
 
       margin auto 10px
@@ -70,6 +83,9 @@
         bottom 0
         background-color #398BFF
         display flex
+        -webkit-display flex;
+        -moz-display flex;
+        -ms--display flex;
         align-items center
         justify-content center
         color #ffffff

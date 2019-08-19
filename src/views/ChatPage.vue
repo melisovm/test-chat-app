@@ -20,6 +20,9 @@
 <style lang="stylus">
   .chatpage__container
     display flex;
+    -webkit-display flex;
+    -moz-display flex;
+    -ms--display flex;
     height 90%
     width 60%
     background-color #ffffff

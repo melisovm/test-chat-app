@@ -20,7 +20,7 @@
     display flex
 
     &.right
-      justify-content end
+      justify-content flex-end
 
       .message__main_block
         margin-right 10px
@@ -38,7 +38,7 @@
         justify-content flex-end
 
     &.left
-      justify-content start
+      justify-content flex-start
 
       .message__main_block
         margin-left 10px

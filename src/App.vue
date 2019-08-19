@@ -7,12 +7,17 @@
     margin 0
     padding 0
 
+  textarea
+    outline none
   #app
     font-family 'TT Norms', Helvetica, Arial, sans-serif
     -webkit-font-smoothing antialiased
     -moz-osx-font-smoothing grayscale
     color #2c3e50
     display flex
+    -webkit-display flex;
+    -moz-display flex;
+    -ms--display flex;
     align-items center
     justify-content center
     height 100vh
