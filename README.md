@@ -1,5 +1,5 @@
 # test-chat-app
-### This is a test-app for  ***d.tkachenko@platformalp.ru***
+
 To start this project firstly install dependencies
 ```
 npm install
